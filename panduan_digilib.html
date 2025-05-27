@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panduan dan FAQ - Luminara</title>
+    <link rel="stylesheet" href="css/style_digilib.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="LogoLuminara.jpg" alt="Logo Luminara" class="logo">
+            <div class="title-container">
+                <h1>Luminara
+                <p>Website ini dibuat untuk memperluas akses layanan informasi perpustakaan.</p>
+            </div>
+            <button id="theme-toggle" class="theme-toggle">☀️</button>
+        </div>
+        <div id="menu-toggle" class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Sidebar Navigation -->
+    <nav id="sidebar" class="sidebar">
+        <ul class="sidebar-menu">
+            <li><a href="digilib.html">Home</a></li>
+            <li><a href="profil_digilib.html">Profil Perpustakaan</a></li>
+            <li><a href="katalog_digilib.html">Katalog (OPAC)</a></li>
+            <li><a href="layanan_digilib.html">Layanan</a></li>
+            <li><a href="koleksi_digilib.html">Koleksi</a></li>
+            <li><a href="panduan_digilib.html">Panduan / FAQ</a></li>
+            <li><a href="agenda_digilib.html">Agenda / Kegiatan</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="faq-section">
+            <h2 class="section-title">Panduan & FAQ</h2>
+            <div class="faq-container">
+              <div class="faq-item" onclick="toggleFAQ(this)">
+                <div class="faq-question">
+                  <h3>Cara mencari buku di OPAC?</h3>
+                  <span class="arrow">▼</span>
+                </div>
+                <p class="faq-answer">Gunakan fitur pencarian di halaman OPAC. Masukkan judul dan/atau penulis, lalu tekan "Cari". Hasil akan muncul dalam bentuk kartu koleksi.</p>
+              </div>
+              <div class="faq-item" onclick="toggleFAQ(this)">
+                <div class="faq-question">
+                  <h3>Cara meminjam buku digital?</h3>
+                  <span class="arrow">▼</span>
+                </div>
+                <p class="faq-answer">Klik koleksi yang ingin dipinjam, lalu tekan tombol "Pinjam Buku". Sistem akan menampilkan pesan peminjaman atau proses unduh jika tersedia.</p>
+              </div>
+              <div class="faq-item" onclick="toggleFAQ(this)">
+                <div class="faq-question">
+                  <h3>Bagaimana mengakses jurnal dan e-book?</h3>
+                  <span class="arrow">▼</span>
+                </div>
+                <p class="faq-answer">Masuk ke halaman Koleksi, pilih bagian jurnal atau e-book, lalu klik item yang ingin dibaca. Beberapa konten mungkin perlu login.</p>
+              </div>
+              <div class="faq-item" onclick="toggleFAQ(this)">
+                <div class="faq-question">
+                  <h3>Apa itu nomor panggil buku?</h3>
+                  <span class="arrow">▼</span>
+                </div>
+                <p class="faq-answer">Nomor panggil (call number) adalah kode unik pada setiap buku di perpustakaan, digunakan untuk mengatur letak fisik atau klasifikasinya.</p>
+              </div>
+              <div class="faq-item" onclick="toggleFAQ(this)">
+                <div class="faq-question">
+                  <h3>Bagaimana jika saya lupa akun atau password?</h3>
+                  <span class="arrow">▼</span>
+                </div>
+                <p class="faq-answer">Silakan hubungi petugas perpustakaan melalui kontak kami untuk proses reset akun atau bantuan lainnya.</p>
+              </div>
+            </div>
+            <div class="faq-item" onclick="toggleFAQ(this)">
+                <div class="faq-question">
+                  <h3>Bagaimana cara mengusulkan koleksi baru?</h3>
+                  <span class="arrow">▼</span>
+                </div>
+                <p class="faq-answer">Pengguna dapat mengisi formulir usulan koleksi melalui menu "Layanan" atau menghubungi petugas melalui kontak yang tersedia.</p>
+              </div>
+              
+              <div class="faq-item" onclick="toggleFAQ(this)">
+                <div class="faq-question">
+                  <h3>Apakah saya bisa mengakses layanan tanpa login?</h3>
+                  <span class="arrow">▼</span>
+                </div>
+                <p class="faq-answer">Beberapa fitur dapat diakses tanpa login, seperti pencarian OPAC. Namun, peminjaman dan akses penuh e-book memerlukan akun pengguna.</p>
+              </div>
+              
+              <div class="faq-item" onclick="toggleFAQ(this)">
+                <div class="faq-question">
+                  <h3>Berapa lama durasi peminjaman buku digital?</h3>
+                  <span class="arrow">▼</span>
+                </div>
+                <p class="faq-answer">Durasi standar adalah 7 hari. Setelah itu, akses ke buku akan otomatis ditutup. Pengguna bisa memperpanjang jika masih tersedia.</p>
+              </div>
+              
+              <div class="faq-item" onclick="toggleFAQ(this)">
+                <div class="faq-question">
+                  <h3>Apakah tersedia fitur aksesibilitas untuk difabel?</h3>
+                  <span class="arrow">▼</span>
+                </div>
+                <p class="faq-answer">Ya. Perpustakaan menyediakan mode kontras tinggi, teks besar, dan narasi suara untuk memudahkan pengguna difabel mengakses konten.</p>
+              </div>
+              
+              <div class="faq-item" onclick="toggleFAQ(this)">
+                <div class="faq-question">
+                  <h3>Bagaimana cara menghubungi pustakawan secara daring?</h3>
+                  <span class="arrow">▼</span>
+                </div>
+                <p class="faq-answer">Layanan chat pustakawan tersedia pada jam kerja melalui ikon live chat di pojok kanan bawah atau melalui halaman "Hubungi Kami".</p>
+              </div>
+              
+              <div class="faq-item" onclick="toggleFAQ(this)">
+                <div class="faq-question">
+                  <h3>Apakah koleksi fisik masih tersedia di perpustakaan?</h3>
+                  <span class="arrow">▼</span>
+                </div>
+                <p class="faq-answer">Ya. Koleksi fisik tetap tersedia dan bisa ditelusuri melalui OPAC. Silakan datang langsung ke lokasi perpustakaan untuk meminjamnya.</p>
+              </div>              
+          </section>          
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h2>Hubungi Kami</h2>
+        <p>Alamat: Jalan Contoh No. 123, Kota Perpustakaan</p>
+        <p>Telepon: (021) 12345678</p>
+        <p>Email: pustakaloka@email.com</p>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Nama" required>
+            <input type="text" placeholder="Alamat" required>
+            <input type="tel" placeholder="Nomor Telepon" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Pesan" required></textarea>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+
+        <div class="map-container">
+            <iframe src="https://maps.google.com/maps?q=Jakarta&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" allowfullscreen=""></iframe>
+        </div>
+    </footer>
+
+    <script src="js/script_digilib.js"></script>
+</body>
+</html>

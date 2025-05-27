@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+ <record>
+  <leader>     na                 </leader>
+  <controlfield tag="001">INLIS000000000000007</controlfield>
+  <controlfield tag="005">20250527112854</controlfield>
+  <datafield tag="035" ind1=" " ind2=" ">
+   <subfield code="a">0010-0525000006</subfield>
+  </datafield>
+  <controlfield tag="007">ta</controlfield>
+  <datafield tag="040" ind1=" " ind2=" ">
+   <subfield code="a">JKPNPNA</subfield>
+   <subfield code="b">ind</subfield>
+  </datafield>
+  <datafield tag="100" ind1="0" ind2=" ">
+   <subfield code="a">Pramoedya Ananta Toer</subfield>
+   <subfield code="d">1925-2006</subfield>
+   <subfield code="d">Pramoedya Ananta Toer</subfield>
+   <subfield code="d">1925-2006</subfield>
+   <subfield code="d">1925-2006</subfield>
+   <subfield code="d">1925-2006</subfield>
+   <subfield code="d">Pramoedya Ananta Toer</subfield>
+   <subfield code="d">1925-2006</subfield>
+   <subfield code="d">Pramoedya Ananta Toer</subfield>
+   <subfield code="d">1925-2006</subfield>
+   <subfield code="d">1925-2006</subfield>
+   <subfield code="d">1925-2006</subfield>
+   <subfield code="d">1925-2006</subfield>
+   <subfield code="d">Pramoedya Ananta Toer</subfield>
+   <subfield code="d">1925-2006</subfield>
+   <subfield code="d">1925-2006</subfield>
+   <subfield code="d">1925-2006</subfield>
+   <subfield code="d">1925-2006</subfield>
+   <subfield code="d">Pramoedya Ananta Toer</subfield>
+   <subfield code="d">1925-2006</subfield>
+   <subfield code="d">1925-2006</subfield>
+   <subfield code="d">1925-2006</subfield>
+   <subfield code="g">pengarang</subfield>
+   <subfield code="g">pengarang</subfield>
+   <subfield code="g">Pramoedya Ananta Toer</subfield>
+   <subfield code="g">pengarang</subfield>
+   <subfield code="g">pengarang</subfield>
+   <subfield code="g">pengarang</subfield>
+   <subfield code="g">pengarang</subfield>
+   <subfield code="g">Pramoedya Ananta Toer</subfield>
+   <subfield code="g">pengarang</subfield>
+   <subfield code="g">pengarang</subfield>
+   <subfield code="g">Pramoedya Ananta Toer</subfield>
+   <subfield code="g">pengarang</subfield>
+   <subfield code="g">pengarang</subfield>
+   <subfield code="g">Pramoedya Ananta Toer</subfield>
+   <subfield code="g">pengarang</subfield>
+   <subfield code="g">pengarang</subfield>
+   <subfield code="g">pengarang</subfield>
+   <subfield code="g">pengarang</subfield>
+   <subfield code="g">Pramoedya Ananta Toer</subfield>
+   <subfield code="g">pengarang</subfield>
+   <subfield code="g">pengarang</subfield>
+   <subfield code="t">Bumi manusia</subfield>
+   <subfield code="t">Bumi manusia</subfield>
+   <subfield code="t">Bumi manusia</subfield>
+   <subfield code="t">Pramoedya Ananta Toer</subfield>
+   <subfield code="t">Bumi manusia</subfield>
+   <subfield code="t">Bumi manusia</subfield>
+   <subfield code="t">Bumi manusia</subfield>
+   <subfield code="t">Bumi manusia</subfield>
+   <subfield code="t">Pramoedya Ananta Toer</subfield>
+   <subfield code="t">Bumi manusia</subfield>
+   <subfield code="t">Bumi manusia</subfield>
+   <subfield code="t">Bumi manusia</subfield>
+   <subfield code="t">Bumi manusia</subfield>
+   <subfield code="t">Pramoedya Ananta Toer</subfield>
+   <subfield code="t">Bumi manusia</subfield>
+   <subfield code="t">Pramoedya Ananta Toer</subfield>
+   <subfield code="t">Bumi manusia</subfield>
+   <subfield code="t">Bumi manusia</subfield>
+   <subfield code="t">Bumi manusia</subfield>
+   <subfield code="t">Pramoedya Ananta Toer</subfield>
+   <subfield code="t">Bumi manusia</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+   <subfield code="a">Bumi manusia /</subfield>
+   <subfield code="c">Pramoedya Ananta Toer; editor Joesoef Isak; ilustrator Galam</subfield>
+   <subfield code="h">[sumber elektronik]</subfield>
+  </datafield>
+  <datafield tag="250" ind1=" " ind2=" ">
+   <subfield code="a">Edisi pembebasan karya pulau buru</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+   <subfield code="a">1 sumber elektronik (417 hlm)</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+   <subfield code="a">979-8659-12-0</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2=" ">
+   <subfield code="2">[23]</subfield>
+   <subfield code="a">899.2213</subfield>
+  </datafield>
+  <datafield tag="084" ind1=" " ind2=" ">
+   <subfield code="a">899.2213 PRA b</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+   <subfield code="a">Yogyakarta :</subfield>
+   <subfield code="b">Hestra Mitra,</subfield>
+   <subfield code="c">2002</subfield>
+   <subfield code="e">Studio Gamplong, Yogyakarta</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+   <subfield code="a">Judul diambil dari cover</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+   <subfield code="a">Mengisahkan Minke, seorang pribumi terpelajar di masa penjajahan Belanda, yang jatuh cinta pada Annelies, gadis Indo dari keluarga Nyai Ontosoroh. Lewat perjuangan cinta dan pemikiran kritis, Minke menghadapi ketidakadilan kolonial dan tatanan sosial yang timpang</subfield>
+  </datafield>
+  <datafield tag="538" ind1=" " ind2=" ">
+   <subfield code="a">persyaratan sistem: aplikasi Playbooks</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+   <subfield code="a">Fiksi Indonesia</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+   <subfield code="a">Joesoef Isak</subfield>
+   <subfield code="d">1928-2009</subfield>
+   <subfield code="g">editor</subfield>
+   <subfield code="t">Bumi manusia</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+   <subfield code="a">Galam</subfield>
+   <subfield code="d">1971-</subfield>
+   <subfield code="g">ilustrator</subfield>
+   <subfield code="t">Bumi manusia</subfield>
+  </datafield>
+  <datafield tag="850" ind1=" " ind2=" ">
+   <subfield code="a">JKPNPNA</subfield>
+  </datafield>
+  <datafield tag="856" ind1=" " ind2=" ">
+   <subfield code="i">Dapat diakses melalui aplikasi Playbooks</subfield>
+  </datafield>
+ </record>
+</collection>

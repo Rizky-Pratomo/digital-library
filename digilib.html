@@ -1,0 +1,103 @@
+ <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PustakaLoka - Perpustakaan Digital</title>
+    <link rel="stylesheet" href="css/style_digilib.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo-container">
+            <img src=LogoLuminara.jpg class="logo">
+            <div class="title-container">
+                <h1>Luminara</h1>
+                <p>Website ini dibuat untuk memperluas akses layanan informasi perpustakaan.</p>
+            </div>
+            <button id="theme-toggle" class="theme-toggle">☀️</button>
+        </div>
+        <div id="menu-toggle" class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Sidebar Navigation -->
+    <nav id="sidebar" class="sidebar">
+        <ul class="sidebar-menu">
+            <li><a href="digilib.html">Home</a></li>
+            <li><a href="profil_digilib.html">Profil Perpustakaan</a></li>
+            <li><a href="katalog_digilib.html">Katalog (OPAC)</a></li>
+            <li><a href="layanan_digilib.html">Layanan</a></li>
+            <li><a href="koleksi_digilib.html">Koleksi</a></li>
+            <li><a href="panduan_digilib.html">Panduan / FAQ</a></li>
+            <li><a href="agenda_digilib.html">Agenda / Kegiatan</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Cari buku, koleksi digital, atau jurnal...">
+        </div> 
+        <div class="news-carousel">
+            <img src="banner.jpg" class="carousel-image active" alt="Berita 1">
+            <img src="banner2.jpg" class="carousel-image" alt="Berita 2">
+            <img src="banner3.jpg" class="carousel-image" alt="Berita 3">
+        </div>               
+        <section class="collection-section">
+            <h2>Koleksi Buku Fiksi</h2>
+            <div class="card-container" id="koleksi-buku"></div>
+          </section>
+          
+          <section class="collection-section">
+            <h2>Koleksi Digital</h2>
+            <div class="card-container" id="koleksi-digital"></div>
+          </section>
+          
+          <section class="collection-section">
+            <h2>Koleksi Jurnal, E-Book, Skripsi</h2>
+            <div class="card-container" id="koleksi-jurnal"></div>
+          </section>          
+    </main>
+
+    <!-- Hubungi Kami -->
+    <footer class="footer">
+        <h2>Hubungi Kami</h2>
+        <p>Alamat: Jalan Contoh No. 123, Kota Perpustakaan</p>
+        <p>Telepon: (021) 12345678</p>
+        <p>Email: pustakaloka@email.com</p>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Nama" required>
+            <input type="text" placeholder="Alamat" required>
+            <input type="tel" placeholder="Nomor Telepon" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Pesan" required></textarea>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+
+        <div class="map-container">
+            <iframe src="https://maps.google.com/maps?q=Jakarta&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" allowfullscreen=""></iframe>
+        </div>
+    </footer>
+
+    <!-- Modal Popup Buku -->
+<div id="book-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" id="close-modal">&times;</span>
+        <img id="modal-img" src="" alt="Cover Buku" class="modal-image">
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+        <button onclick="showComingSoon()" class="pinjam-button">Pinjam Buku</button>
+    </div>
+</div>
+
+    <script src="js/script_digilib.js"></script>
+</body>
+</html>

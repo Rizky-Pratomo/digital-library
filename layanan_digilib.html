@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan - PustakaLoka</title>
+    <link rel="stylesheet" href="css/style_digilib.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="LogoLuminara.jpg" alt="Logo luminara" class="logo">
+            <div class="title-container">
+                <h1>Luminara</h1>
+                <p>Website ini dibuat untuk memperluas akses layanan informasi perpustakaan.</p>
+            </div>
+            <button id="theme-toggle" class="theme-toggle">☀️</button>
+        </div>
+        <div id="menu-toggle" class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Sidebar Navigation -->
+    <nav id="sidebar" class="sidebar">
+      <ul class="sidebar-menu">
+        <li><a href="digilib.html">Home</a></li>
+        <li><a href="profil_digilib.html">Profil Perpustakaan</a></li>
+        <li><a href="katalog_digilib.html">Katalog (OPAC)</a></li>
+        <li><a href="layanan_digilib.html">Layanan</a></li>
+        <li><a href="koleksi_digilib.html">Koleksi</a></li>
+        <li><a href="panduan_digilib.html">Panduan / FAQ</a></li>
+        <li><a href="agenda_digilib.html">Agenda / Kegiatan</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="layanan-section">
+          <h2 class="section-title">Layanan Perpustakaan Digital</h2>
+          <div class="layanan-container">
+            <div class="layanan-box" data-index="0">
+              <h3>Peminjaman Digital</h3>
+              <p>Memungkinkan pengguna meminjam e-book dan koleksi digital dari rumah melalui sistem daring.</p>
+            </div>
+            <div class="layanan-box" data-index="1">
+              <h3>Akses Jurnal dan E-Book</h3>
+              <p>Menyediakan akses ke berbagai jurnal ilmiah dan buku digital melalui portal perpustakaan.</p>
+            </div>
+            <div class="layanan-box" data-index="2">
+              <h3>Layanan Referensi</h3>
+              <p>Membantu pengguna menemukan informasi yang relevan dengan cepat melalui bantuan pustakawan online.</p>
+            </div>
+            <div class="layanan-box" data-index="3">
+              <h3>Katalog Online (OPAC)</h3>
+              <p>Pencarian koleksi secara mandiri berdasarkan judul, penulis, atau topik melalui katalog digital.</p>
+            </div>
+            <div class="layanan-box" data-index="4">
+              <h3>Panduan Literasi Informasi</h3>
+              <p>Pelatihan dan edukasi mengenai penggunaan informasi digital secara efektif dan bertanggung jawab.</p>
+            </div>
+            <div class="layanan-box" data-index="5">
+              <h3>Permintaan Koleksi Baru</h3>
+              <p>Pengguna dapat mengajukan usulan buku atau konten digital untuk menambah koleksi perpustakaan.</p>
+            </div>
+          </div>
+        </section>
+      </main>
+      
+      <!-- Modal Layanan -->
+      <div id="layanan-modal" class="modal">
+        <div class="modal-content">
+          <span class="close-button" id="layanan-close">&times;</span>
+          <h2 id="layanan-modal-title"></h2>
+          <p id="layanan-modal-description"></p>
+        </div>
+      </div>      
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h2>Hubungi Kami</h2>
+        <p>Alamat: Jalan Contoh No. 123, Kota Perpustakaan</p>
+        <p>Telepon: (021) 12345678</p>
+        <p>Email: pustakaloka@email.com</p>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Nama" required>
+            <input type="text" placeholder="Alamat" required>
+            <input type="tel" placeholder="Nomor Telepon" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Pesan" required></textarea>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+
+        <div class="map-container">
+            <iframe src="https://maps.google.com/maps?q=Jakarta&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" allowfullscreen=""></iframe>
+        </div>
+    </footer>
+
+    <script src="js/script_digilib.js"></script>
+</body>
+</html>

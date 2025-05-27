@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda dan Kegiatan - Luminara</title>
+    <link rel="stylesheet" href="css/style_digilib.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="LogoLuminara.jpg" alt="Logo Luminara" class="logo">
+            <div class="title-container">
+                <h1>luminara</h1>
+                <p>Website ini dibuat untuk memperluas akses layanan informasi perpustakaan.</p>
+            </div>
+            <button id="theme-toggle" class="theme-toggle">☀️</button>
+        </div>
+        <div id="menu-toggle" class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Sidebar Navigation -->
+    <nav id="sidebar" class="sidebar">
+        <ul class="sidebar-menu">
+            <li><a href="digilib.html">Home</a></li>
+            <li><a href="profil_digilib.html">Profil Perpustakaan</a></li>
+            <li><a href="katalog_digilib.html">Katalog (OPAC)</a></li>
+            <li><a href="layanan_digilib.html">Layanan</a></li>
+            <li><a href="koleksi_digilib.html">Koleksi</a></li>
+            <li><a href="panduan_digilib.html">Panduan / FAQ</a></li>
+            <li><a href="agenda_digilib.html">Agenda / Kegiatan</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="agenda-section">
+            <h2>Agenda & Kegiatan Perpustakaan</h2>
+        
+            <div class="agenda-banner">
+                <img src="isiagenda.jpg" alt="Banner Agenda Kegiatan">
+            </div>
+        
+            <div class="agenda-description">
+                <p>
+                    Perpustakaan Luminara secara rutin mengadakan kegiatan literasi seperti pelatihan, webinar, lomba baca puisi, pelatihan akses OPAC, hingga kegiatan komunitas baca. Agenda ini bertujuan untuk meningkatkan budaya literasi masyarakat dan memaksimalkan pemanfaatan koleksi digital yang dimiliki.
+                </p>
+            </div>
+        </section>        
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h2>Hubungi Kami</h2>
+        <p>Alamat: Jalan Contoh No. 123, Kota Perpustakaan</p>
+        <p>Telepon: (021) 12345678</p>
+        <p>Email: pustakaloka@email.com</p>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Nama" required>
+            <input type="text" placeholder="Alamat" required>
+            <input type="tel" placeholder="Nomor Telepon" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Pesan" required></textarea>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+
+        <div class="map-container">
+            <iframe src="https://maps.google.com/maps?q=Jakarta&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" allowfullscreen=""></iframe>
+        </div>
+    </footer>
+
+    <script src="js/script_digilib.js"></script>
+</body>
+</html>
